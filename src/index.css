@@ -9,6 +9,8 @@
 :root {
   /*Colors*/
   --light-gray: #e4e5ea;
+  --dark-gray: #656566;
+  --background: #1e1e1e;
   --text-gradient: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
 }
 
@@ -19,4 +21,13 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: var(--light-gray);
+  background-color: var(--background);
+  position: relative;
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    font-size: 12px;
+    line-height: 15px;
+  }
 }
