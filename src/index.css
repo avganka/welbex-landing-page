@@ -23,7 +23,7 @@ body {
   color: var(--light-gray);
   background-color: var(--background);
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 576px) {
